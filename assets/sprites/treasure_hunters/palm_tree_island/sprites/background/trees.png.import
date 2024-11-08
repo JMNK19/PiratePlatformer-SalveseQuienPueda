@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dflco7s0cvfic"
-path="res://.godot/imported/additional_water.png-0a2da47282cad0973e40c8fa57a2ab87.ctex"
+uid="uid://busddu0scl6mb"
+path="res://.godot/imported/trees.png-dfccbf63044545a00ed91ab996d8686e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/additional_water.png"
-dest_files=["res://.godot/imported/additional_water.png-0a2da47282cad0973e40c8fa57a2ab87.ctex"]
+source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/trees.png"
+dest_files=["res://.godot/imported/trees.png-dfccbf63044545a00ed91ab996d8686e.ctex"]
 
 [params]
 

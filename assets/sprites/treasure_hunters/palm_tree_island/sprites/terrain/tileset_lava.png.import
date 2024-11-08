@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dflco7s0cvfic"
-path="res://.godot/imported/additional_water.png-0a2da47282cad0973e40c8fa57a2ab87.ctex"
+uid="uid://lqusjr04arkd"
+path="res://.godot/imported/tileset_lava.png-bf485bd2ab88ec5d71170aaf4d1125d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/additional_water.png"
-dest_files=["res://.godot/imported/additional_water.png-0a2da47282cad0973e40c8fa57a2ab87.ctex"]
+source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/terrain/tileset_lava.png"
+dest_files=["res://.godot/imported/tileset_lava.png-bf485bd2ab88ec5d71170aaf4d1125d1.ctex"]
 
 [params]
 
