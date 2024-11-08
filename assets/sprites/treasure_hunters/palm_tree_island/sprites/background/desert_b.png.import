@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7takygm7xwpr"
-path="res://.godot/imported/terrain_(32x32).png-ece03d8199c481c776cb1a859ff53b8f.ctex"
+uid="uid://c1ig7bf21uksj"
+path="res://.godot/imported/desert_b.png-a3c359a2c6feaaf6f3ed87b51782518f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/terrain/terrain_(32x32).png"
-dest_files=["res://.godot/imported/terrain_(32x32).png-ece03d8199c481c776cb1a859ff53b8f.ctex"]
+source_file="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/desert_b.png"
+dest_files=["res://.godot/imported/desert_b.png-a3c359a2c6feaaf6f3ed87b51782518f.ctex"]
 
 [params]
 

@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://boj2dfl141v17" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/yellow_button/3.png" id="3_10kh6"]
 [ext_resource type="Texture2D" uid="uid://dfpvdu8l86t7s" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/sliders/5.png" id="3_ha70u"]
 [ext_resource type="Texture2D" uid="uid://cg6wkkuni8aq8" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/bg_image.png" id="3_heeya"]
-[ext_resource type="Texture2D" uid="uid://xjmch2w77hf8" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/additional_water.png" id="4_0xs5f"]
+[ext_resource type="Texture2D" uid="uid://xjmch2w77hf8" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/additional_water.png" id="4_0xs5f"]
 [ext_resource type="Texture2D" uid="uid://b4y4paxn2nw2y" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/yellow_button/4.png" id="4_76ed7"]
 [ext_resource type="Texture2D" uid="uid://d0uycw76ah71t" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/sliders/6.png" id="4_s2jl3"]
 [ext_resource type="Texture2D" uid="uid://kfc2kokx4vgl" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/water_reflect_big_01.png" id="5_j1k1l"]

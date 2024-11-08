@@ -1,8 +1,8 @@
 [gd_resource type="TileSet" load_steps=10 format=3 uid="uid://bx1rsqucrwm2i"]
 
 [ext_resource type="Texture2D" uid="uid://bwx8cvdg6m3fl" path="res://assets/sprites/pirate_bomb/8_tile_sets/tile_sets_(64_64).png" id="1_5sy0g"]
-[ext_resource type="Texture2D" uid="uid://b7takygm7xwpr" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/terrain/terrain_(32x32).png" id="1_tvvix"]
 [ext_resource type="Texture2D" uid="uid://dpn0wm3iorpic" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/front_palm_trees/front_palm_bottom_and_grass_(32x32).png" id="1_wm1i3"]
+[ext_resource type="Texture2D" uid="uid://b7takygm7xwpr" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/terrain_(32x32).png" id="3_6yal8"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_s1rs0"]
 tile_data = PackedInt32Array(0, 983043, 3, 65536, 983043, 4, 1, 1048579, 3, 65537, 1048579, 4)
@@ -417,7 +417,7 @@ texture_region_size = Vector2i(32, 32)
 2:2/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ntfj"]
-texture = ExtResource("1_tvvix")
+texture = ExtResource("3_6yal8")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/terrain_set = 0
