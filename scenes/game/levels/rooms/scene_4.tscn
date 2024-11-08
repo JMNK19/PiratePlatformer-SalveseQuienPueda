@@ -339,12 +339,11 @@ layer_0/tile_data = PackedInt32Array(-1507399, 0, 2, -1441863, 0, 2, -1376327, 0
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("14_6y7l1")]
 position = Vector2(-1988, 243)
-limit_top = -2000
-limit_right = 8800
+limit_right = 1800
 character = NodePath("../MainCharacter")
 
 [node name="MainCharacter" parent="." instance=ExtResource("14_x80p8")]
 position = Vector2(-2185, 279)
 
 [node name="enemy_character" parent="." instance=ExtResource("16_u5mh0")]
-position = Vector2(-2129, 275)
+position = Vector2(-2210, 221)
