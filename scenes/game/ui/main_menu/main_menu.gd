@@ -93,7 +93,7 @@ func _toggle_show():
 	get_tree().paused = visible # Si estamos en el menú, pausamos
 	
 	# Buscamos el nodo principal del nivel actual "Main"
-	var main_node = get_tree().get_root().get_node("Main")
+	var main_node = get_tree().get_root().get_node("/root/MainMenu")
 	if main_node:
 		# Buscamos la cámara del nivel actual "Camera2D"
 		var camera = main_node.find_child("Camera2D")
