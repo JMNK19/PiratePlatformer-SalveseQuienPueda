@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://b50huxhfinl4p"]
+[gd_scene load_steps=17 format=3 uid="uid://b50huxhfinl4p"]
 
 [ext_resource type="Texture2D" uid="uid://c1ig7bf21uksj" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/desert_b.png" id="1_tcjf0"]
 [ext_resource type="Texture2D" uid="uid://baayrdcvulwo2" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/big_clouds.png" id="2_twwne"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes/game/camera/camera.tscn" id="14_6y7l1"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="14_x80p8"]
 [ext_resource type="PackedScene" uid="uid://b5qjvfbte4svk" path="res://scenes/game/levels/objects/pickable_object/pickable_object.tscn" id="16_50iwj"]
+[ext_resource type="PackedScene" uid="uid://crgnpdbmqt0ml" path="res://enemy_character/enemy_fusion/evil_pirate.tscn" id="16_foc6o"]
 
 [node name="Scene4" type="Node2D"]
 position = Vector2(2204, 2)
@@ -231,3 +232,8 @@ position = Vector2(-1996, 440)
 
 [node name="PickableObject2" parent="." instance=ExtResource("16_50iwj")]
 position = Vector2(-2019, 440)
+
+[node name="Evil_pirate" parent="." instance=ExtResource("16_foc6o")]
+position = Vector2(-1574, 432)
+animation = "run"
+moving_direction = "active"
