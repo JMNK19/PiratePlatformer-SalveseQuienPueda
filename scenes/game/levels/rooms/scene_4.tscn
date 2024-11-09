@@ -146,7 +146,7 @@ scale = Vector2(6.44529, 1.75781)
 texture = ExtResource("11_fqlri")
 
 [node name="AdditionalWater6" type="Sprite2D" parent="Scene"]
-position = Vector2(-1569.81, 434.875)
+position = Vector2(-1641, 428)
 scale = Vector2(10.2383, 3.00781)
 texture = ExtResource("11_fqlri")
 
