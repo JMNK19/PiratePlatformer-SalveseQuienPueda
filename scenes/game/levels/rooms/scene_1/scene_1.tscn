@@ -36,7 +36,7 @@ autoplay = true
 bus = &"Ambient"
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(765, 391.5)
+position = Vector2(778, 389)
 scale = Vector2(4.02083, 2.42969)
 texture = ExtResource("1_xttku")
 
