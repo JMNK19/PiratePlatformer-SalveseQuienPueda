@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://ipxfnmkarhij"]
+[gd_scene load_steps=28 format=3 uid="uid://ipxfnmkarhij"]
 
 [ext_resource type="TileSet" uid="uid://bx1rsqucrwm2i" path="res://assets/resources/bg_tile_set.tres" id="1_4e0hg"]
 [ext_resource type="Texture2D" uid="uid://dtregm225uqt5" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/bg_image2.png" id="1_cc03x"]
@@ -25,7 +25,6 @@
 [ext_resource type="Texture2D" uid="uid://dmbw1ubsgqxwe" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/3.png" id="23_ggp7y"]
 [ext_resource type="Texture2D" uid="uid://dwsfqoltg7rlt" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/4.png" id="24_rddrx"]
 [ext_resource type="PackedScene" uid="uid://crgnpdbmqt0ml" path="res://enemy_character/enemy_fusion/evil_pirate.tscn" id="25_iqw21"]
-[ext_resource type="PackedScene" uid="uid://bnp6y3fe4kqob" path="res://scenes/game/levels/objects/damage_object/cannon/cannon.tscn" id="26_r5k0m"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5y0c6"]
 animations = [{
@@ -200,6 +199,3 @@ sprite_frames = SubResource("SpriteFrames_np8ga")
 position = Vector2(1694, 531)
 animation = "run"
 moving_direction = "active"
-
-[node name="Cannon" parent="." instance=ExtResource("26_r5k0m")]
-position = Vector2(1149, 166)
