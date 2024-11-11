@@ -660,7 +660,7 @@ moving_direction = "active"
 [node name="Crabby4" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1426, 307)
 animation = "run"
-moving_direction = "active"
+moving_direction = "left"
 
 [node name="Crabby5" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1465, 434)
@@ -670,7 +670,7 @@ moving_direction = "left"
 [node name="Crabby6" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1284, 434)
 animation = "run"
-moving_direction = "active"
+moving_direction = "left"
 
 [node name="Crabby7" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-879, 369)
@@ -679,96 +679,158 @@ moving_direction = "right"
 
 [node name="Crabby8" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-623, 273)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby9" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-283, 435)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby10" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-433, 435)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby11" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-147, 150)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby12" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(215, 435)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby13" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(364, 435)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby14" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(549, 435)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby15" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(1380, 277)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby17" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(981, 373)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby18" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(1165, 372)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby16" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-144, 273)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby19" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-28, 274)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby20" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(3060, 308)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby21" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(3209, 305)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby22" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(3543, 273)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby23" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(3973, 401)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby24" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(4166, 401)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby25" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(4341, 406)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby26" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(4564, 404)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby27" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(4826, 399)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby28" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(5198, 336)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby29" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(5614, 433)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby30" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(2532, 466)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby31" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(2675, 464)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby32" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(1639, 434)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby33" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(1754, 434)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby34" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(1890, 434)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby35" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(2463, 274)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby36" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(2800, 403)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby37" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(881, 372)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby38" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(5334, 273)
+animation = "run"
+moving_direction = "left"
 
 [node name="Posiones" type="Node2D" parent="."]
 
