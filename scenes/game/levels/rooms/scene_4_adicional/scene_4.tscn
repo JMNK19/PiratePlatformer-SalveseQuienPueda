@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://ipxfnmkarhij"]
+[gd_scene load_steps=29 format=3 uid="uid://ipxfnmkarhij"]
 
 [ext_resource type="TileSet" uid="uid://bx1rsqucrwm2i" path="res://assets/resources/bg_tile_set.tres" id="1_4e0hg"]
 [ext_resource type="Texture2D" uid="uid://dtregm225uqt5" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/bg_image2.png" id="1_cc03x"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://dl8afnvp5w315" path="res://scenes/game/levels/objects/power_up/power_up.tscn" id="11_6xk7n"]
 [ext_resource type="Texture2D" uid="uid://kfc2kokx4vgl" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/water_reflect_big_01.png" id="13_e8qbj"]
 [ext_resource type="Texture2D" uid="uid://bfujtgwkaste2" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/water_reflect_small_01.png" id="14_1msbb"]
+[ext_resource type="PackedScene" uid="uid://brhmupxo2xjim" path="res://scenes/game/levels/objects/change_scene/door_change_scene.tscn" id="15_8yrek"]
 [ext_resource type="Texture2D" uid="uid://bskegan6e27fi" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/1.png" id="15_o6dto"]
 [ext_resource type="Texture2D" uid="uid://b1m0xfdhglhsx" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/2.png" id="16_5pc17"]
 [ext_resource type="Texture2D" uid="uid://cp5bnldtu4ka6" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/3.png" id="17_fr7l1"]
@@ -183,6 +184,10 @@ position = Vector2(1136, 528)
 [node name="WaterReflectSmall01" type="Sprite2D" parent="."]
 position = Vector2(1569, 571)
 texture = ExtResource("14_1msbb")
+
+[node name="DoorChangeScene" parent="." instance=ExtResource("15_8yrek")]
+position = Vector2(1765, 470)
+_path_to_scene = "res://scenes/game/levels/rooms/scene_4.tscn"
 
 [node name="Ship" type="AnimatedSprite2D" parent="."]
 position = Vector2(1763, 553)
