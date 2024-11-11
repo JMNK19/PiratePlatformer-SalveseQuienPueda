@@ -210,192 +210,255 @@ texture = ExtResource("9_cmcod")
 
 [node name="PickableObject" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1990, 415)
+animation = "gold_coin"
 
 [node name="PickableObject2" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1908, 281)
+animation = "gold_coin"
 
 [node name="PickableObject3" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1795, 345)
+animation = "gold_coin"
 
 [node name="PickableObject4" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1682, 281)
+animation = "gold_coin"
 
 [node name="PickableObject5" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1070, 440)
+animation = "gold_coin"
 
 [node name="PickableObject6" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1714, 151)
+animation = "gold_coin"
 
 [node name="PickableObject7" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-2027, 388)
+animation = "gold_coin"
 
 [node name="PickableObject8" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1091, 440)
+animation = "gold_coin"
 
 [node name="PickableObject9" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2448, 185)
+animation = "gold_coin"
 
 [node name="PickableObject10" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2545, 218)
+animation = "gold_coin"
 
 [node name="PickableObject11" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(3663, 277)
+animation = "gold_coin"
 
 [node name="PickableObject12" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(3661, 246)
+animation = "gold_coin"
 
 [node name="PickableObject13" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2335, 154)
+animation = "gold_coin"
 
 [node name="PickableObject14" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1873, 372)
+animation = "gold_coin"
 
 [node name="PickableObject15" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-754, 408)
+animation = "gold_coin"
 
 [node name="PickableObject16" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-402, 251)
+animation = "gold_coin"
 
 [node name="PickableObject17" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-304, 220)
+animation = "gold_coin"
 
 [node name="PickableObject18" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-354, 315)
+animation = "gold_coin"
 
 [node name="PickableObject19" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-349, 405)
+animation = "gold_coin"
 
 [node name="PickableObject20" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-178, 351)
+animation = "gold_coin"
 
 [node name="PickableObject21" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(711, 339)
+animation = "gold_coin"
 
 [node name="PickableObject22" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1745, 405)
+animation = "gold_coin"
 
 [node name="PickableObject23" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1693, 407)
+animation = "gold_coin"
 
 [node name="PickableObject24" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1589, 401)
+animation = "gold_coin"
 
 [node name="PickableObject25" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1508, 388)
+animation = "gold_coin"
 
 [node name="PickableObject26" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1384, 413)
+animation = "gold_coin"
 
 [node name="PickableObject27" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-111, 148)
+animation = "gold_coin"
 
 [node name="PickableObject28" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-85, 281)
+animation = "gold_coin"
 
 [node name="PickableObject29" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(272, 391)
+animation = "gold_coin"
 
 [node name="PickableObject30" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(324, 386)
+animation = "gold_coin"
 
 [node name="PickableObject31" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(446, 389)
+animation = "gold_coin"
 
 [node name="PickableObject32" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(493, 392)
+animation = "gold_coin"
 
 [node name="PickableObject33" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(744, 338)
+animation = "gold_coin"
 
 [node name="PickableObject34" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(928, 333)
+animation = "gold_coin"
 
 [node name="PickableObject35" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1070, 319)
+animation = "gold_coin"
 
 [node name="PickableObject36" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1215, 341)
+animation = "gold_coin"
 
 [node name="PickableObject37" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1300, 336)
+animation = "gold_coin"
 
 [node name="PickableObject38" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2192, 437)
+animation = "gold_coin"
 
 [node name="PickableObject39" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2093, 433)
+animation = "gold_coin"
 
 [node name="PickableObject40" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1699, 383)
+animation = "gold_coin"
 
 [node name="PickableObject41" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1803, 438)
+animation = "gold_coin"
 
 [node name="PickableObject42" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(1901, 381)
+animation = "gold_coin"
 
 [node name="PickableObject43" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2023, 374)
+animation = "gold_coin"
 
 [node name="PickableObject44" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2180, 338)
+animation = "gold_coin"
 
 [node name="PickableObject45" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2592, 411)
+animation = "gold_coin"
 
 [node name="PickableObject46" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2640, 416)
+animation = "gold_coin"
 
 [node name="PickableObject47" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(2863, 374)
+animation = "gold_coin"
 
 [node name="PickableObject48" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(3109, 249)
+animation = "gold_coin"
 
 [node name="PickableObject49" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(3145, 248)
+animation = "gold_coin"
 
 [node name="PickableObject50" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4038, 400)
+animation = "gold_coin"
 
 [node name="PickableObject51" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4084, 400)
+animation = "gold_coin"
 
 [node name="PickableObject52" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4456, 343)
+animation = "gold_coin"
 
 [node name="PickableObject53" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4657, 375)
+animation = "gold_coin"
 
 [node name="PickableObject54" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4692, 376)
+animation = "gold_coin"
 
 [node name="PickableObject55" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(4904, 342)
+animation = "gold_coin"
 
 [node name="PickableObject56" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5072, 399)
+animation = "gold_coin"
 
 [node name="PickableObject57" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5664, 438)
+animation = "gold_coin"
 
 [node name="PickableObject58" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5568, 438)
+animation = "gold_coin"
 
 [node name="PickableObject59" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5906, 277)
+animation = "gold_coin"
 
 [node name="PickableObject60" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-501, 404)
+animation = "gold_coin"
 
 [node name="PickableObject61" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(-1550, 413)
+animation = "gold_coin"
 
 [node name="PickableObject62" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5739, 369)
+animation = "gold_coin"
 
 [node name="PickableObject63" parent="Recompensa" instance=ExtResource("16_50iwj")]
 position = Vector2(5381, 264)
+animation = "gold_coin"
 
 [node name="Trampas" type="Node2D" parent="."]
 
@@ -581,24 +644,38 @@ position = Vector2(1190, 192)
 
 [node name="Crabby" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1966, 434)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby2" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1811, 437)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby3" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1648, 437)
+animation = "run"
+moving_direction = "active"
 
 [node name="Crabby4" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1426, 307)
+animation = "run"
+moving_direction = "active"
 
 [node name="Crabby5" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1465, 434)
+animation = "run"
+moving_direction = "left"
 
 [node name="Crabby6" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-1284, 434)
+animation = "run"
+moving_direction = "active"
 
 [node name="Crabby7" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-879, 369)
+animation = "run"
+moving_direction = "right"
 
 [node name="Crabby8" parent="Enemigos" instance=ExtResource("20_ornb3")]
 position = Vector2(-623, 273)
@@ -741,10 +818,11 @@ limit_smoothed = true
 character = NodePath("../MainCharacter")
 
 [node name="MainCharacter" parent="." instance=ExtResource("14_x80p8")]
-position = Vector2(-2158, 434)
+position = Vector2(-2157, 399)
 
 [node name="Npc" parent="." instance=ExtResource("21_2ig4p")]
 position = Vector2(722, 267)
 
 [node name="DoorChangeScene" parent="." instance=ExtResource("22_yw8w8")]
 position = Vector2(5990, 239)
+_path_to_scene = "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
