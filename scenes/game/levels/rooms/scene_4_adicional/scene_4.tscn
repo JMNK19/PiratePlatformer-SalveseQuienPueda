@@ -1,3 +1,205 @@
-[gd_scene format=3 uid="uid://ipxfnmkarhij"]
+[gd_scene load_steps=29 format=3 uid="uid://ipxfnmkarhij"]
+
+[ext_resource type="TileSet" uid="uid://bx1rsqucrwm2i" path="res://assets/resources/bg_tile_set.tres" id="1_4e0hg"]
+[ext_resource type="Texture2D" uid="uid://dtregm225uqt5" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/bg_image2.png" id="1_cc03x"]
+[ext_resource type="PackedScene" uid="uid://deedu63sld0es" path="res://scenes/game/levels/objects/death/death.tscn" id="2_ipco1"]
+[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="2_mhk8d"]
+[ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes/game/camera/camera.tscn" id="3_fkhwx"]
+[ext_resource type="PackedScene" uid="uid://b5qjvfbte4svk" path="res://scenes/game/levels/objects/pickable_object/pickable_object.tscn" id="5_pmnvs"]
+[ext_resource type="PackedScene" uid="uid://c2e1lhm1w4re4" path="res://scenes/game/levels/objects/damage_object/spikes/spikes.tscn" id="6_a62jk"]
+[ext_resource type="PackedScene" uid="uid://dfkacd6pjtx3m" path="res://enemy_character/enemy_fusion/enemy_cucumber.tscn" id="7_r6ta3"]
+[ext_resource type="PackedScene" uid="uid://bcil4n46byhj5" path="res://scenes/game/levels/objects/back_palm_tree/back_palm_tree.tscn" id="7_x23rp"]
+[ext_resource type="AudioStream" uid="uid://dfb4lvan1kwl2" path="res://assets/sounds/pirate_theme.ogg" id="8_37wp6"]
+[ext_resource type="PackedScene" uid="uid://c2nps502udtd6" path="res://scenes/game/levels/objects/front_palm_tree/front_palm_tree.tscn" id="10_xe17i"]
+[ext_resource type="PackedScene" uid="uid://dl8afnvp5w315" path="res://scenes/game/levels/objects/power_up/power_up.tscn" id="11_6xk7n"]
+[ext_resource type="Texture2D" uid="uid://kfc2kokx4vgl" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/water_reflect_big_01.png" id="13_e8qbj"]
+[ext_resource type="Texture2D" uid="uid://bfujtgwkaste2" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/water_reflect_small_01.png" id="14_1msbb"]
+[ext_resource type="Texture2D" uid="uid://bskegan6e27fi" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/1.png" id="15_o6dto"]
+[ext_resource type="Texture2D" uid="uid://b1m0xfdhglhsx" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/2.png" id="16_5pc17"]
+[ext_resource type="Texture2D" uid="uid://cp5bnldtu4ka6" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/3.png" id="17_fr7l1"]
+[ext_resource type="Texture2D" uid="uid://d0h02nybfcov5" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/4.png" id="18_pfft7"]
+[ext_resource type="Texture2D" uid="uid://bm2fqv1raar8n" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/5.png" id="19_2gbbc"]
+[ext_resource type="Texture2D" uid="uid://8owkcbg613gq" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/ship/idle/6.png" id="20_lu040"]
+[ext_resource type="Texture2D" uid="uid://bqh3l63o3d7g1" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/1.png" id="21_nnetw"]
+[ext_resource type="Texture2D" uid="uid://cmkbl2imk4eyd" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/2.png" id="22_pcx8l"]
+[ext_resource type="Texture2D" uid="uid://dmbw1ubsgqxwe" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/3.png" id="23_ggp7y"]
+[ext_resource type="Texture2D" uid="uid://dwsfqoltg7rlt" path="res://assets/sprites/treasure_hunters/merchant_ship/sprites/ship/sail/wind/4.png" id="24_rddrx"]
+[ext_resource type="PackedScene" uid="uid://crgnpdbmqt0ml" path="res://enemy_character/enemy_fusion/evil_pirate.tscn" id="25_iqw21"]
+[ext_resource type="PackedScene" uid="uid://bnp6y3fe4kqob" path="res://scenes/game/levels/objects/damage_object/cannon/cannon.tscn" id="26_r5k0m"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5y0c6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_o6dto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5pc17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_fr7l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_pfft7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2gbbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lu040")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_np8ga"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_nnetw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_pcx8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ggp7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_rddrx")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="Scene4" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.1, 1)
+
+[node name="bg" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(1171, 402)
+scale = Vector2(5.97396, 6.46875)
+texture = ExtResource("1_cc03x")
+
+[node name="Death" parent="." instance=ExtResource("2_ipco1")]
+position = Vector2(298, 565)
+scale = Vector2(11.44, 1)
+
+[node name="Death3" parent="." instance=ExtResource("2_ipco1")]
+position = Vector2(1268, 563)
+scale = Vector2(2.08, 1)
+
+[node name="Death4" parent="." instance=ExtResource("2_ipco1")]
+position = Vector2(1735, 567)
+scale = Vector2(2.08, 1)
+
+[node name="Death2" parent="." instance=ExtResource("2_ipco1")]
+position = Vector2(1069, 540)
+scale = Vector2(1.49539, 0.63438)
+
+[node name="cucumber" parent="." instance=ExtResource("7_r6ta3")]
+position = Vector2(869, 257)
+animation = "run"
+moving_direction = "left"
+
+[node name="BackPalmTree3" parent="." instance=ExtResource("7_x23rp")]
+position = Vector2(199, 225)
+animation = &"idle_regular"
+
+[node name="MainCharacter" parent="." instance=ExtResource("2_mhk8d")]
+position = Vector2(166, 211)
+
+[node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("3_fkhwx")]
+limit_left = 65
+limit_top = 50
+limit_right = 25000
+limit_bottom = 570
+character = NodePath("../MainCharacter")
+
+[node name="PickableObject" parent="." instance=ExtResource("5_pmnvs")]
+position = Vector2(420, 260)
+animation = "gold_coin"
+
+[node name="PickableObject2" parent="." instance=ExtResource("5_pmnvs")]
+position = Vector2(395, 260)
+animation = "gold_coin"
+
+[node name="PickableObject3" parent="." instance=ExtResource("5_pmnvs")]
+position = Vector2(623, 237)
+animation = "gold_coin"
+
+[node name="PickableObject4" parent="." instance=ExtResource("5_pmnvs")]
+position = Vector2(647, 236)
+animation = "gold_coin"
+
+[node name="BackPalmTree" parent="." instance=ExtResource("7_x23rp")]
+position = Vector2(346, 372)
+
+[node name="PowerUp" parent="." instance=ExtResource("11_6xk7n")]
+position = Vector2(121, 107)
+
+[node name="BackPalmTree4" parent="." instance=ExtResource("7_x23rp")]
+position = Vector2(120, 93)
+animation = &"idle_left"
+
+[node name="FrontPalmTree2" parent="." instance=ExtResource("10_xe17i")]
+position = Vector2(271, 241)
+
+[node name="WaterReflectBig01" type="Sprite2D" parent="."]
+position = Vector2(1625, 560)
+texture = ExtResource("13_e8qbj")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1_4e0hg")
+rendering_quadrant_size = 32
+format = 2
+layer_0/name = "terrain"
+layer_0/tile_data = PackedInt32Array(720898, 65539, 1, 720899, 65539, 1, 720900, 65539, 1, 720901, 65539, 1, 720902, 65539, 1, 720903, 65539, 1, 720904, 131075, 1, 786439, 65539, 1, 786438, 65539, 1, 786437, 65539, 1, 786436, 65539, 1, 786435, 65539, 1, 786434, 65539, 1, 655361, 65539, 1, 655362, 65539, 1, 720897, 65539, 1, 786433, 65539, 1, 589825, 65539, 1, 589826, 65539, 1, 524289, 65539, 1, 524290, 65539, 0, 458753, 65539, 1, 458754, 131075, 1, 393217, 65539, 1, 393218, 131075, 1, 327681, 65539, 1, 327682, 131075, 1, 262145, 65539, 1, 262146, 131075, 1, 196609, 65539, 1, 196610, 131075, 1, 131073, 65539, 1, 131074, 131075, 1, 65537, 65539, 1, 65538, 131075, 1, 786440, 131075, 1, 851976, 131075, 1, 917512, 131075, 1, 983048, 131075, 1, 1048584, 131075, 1, 1114120, 131075, 1, 851975, 65539, 1, 851974, 65539, 1, 851973, 65539, 1, 851972, 65539, 1, 851971, 65539, 1, 851970, 65539, 1, 851969, 65539, 1, 917505, 65539, 1, 917506, 65539, 1, 983041, 65539, 1, 983042, 65539, 1, 1048577, 65539, 1, 1048578, 65539, 1, 1114113, 65539, 1, 1114114, 65539, 1, 1114115, 65539, 1, 1048579, 65539, 1, 983043, 65539, 1, 917507, 65539, 1, 917508, 65539, 1, 983044, 65539, 1, 1048580, 65539, 1, 1114116, 65539, 1, 1114117, 65539, 1, 1048581, 65539, 1, 983045, 65539, 1, 917509, 65539, 1, 917510, 65539, 1, 983046, 65539, 1, 1048582, 65539, 1, 1114118, 65539, 1, 1114119, 65539, 1, 1048583, 65539, 1, 983047, 65539, 1, 917511, 65539, 1, 786443, 3, 4, 786444, 131075, 4, 720913, 131075, 4, 720911, 3, 4, 720912, 65539, 4, 524291, 65539, 0, 524292, 65539, 0, 524293, 65539, 0, 524294, 65539, 0, 524295, 65539, 0, 524296, 131075, 0, 655368, 131075, 1, 589832, 131075, 1, 589827, 65539, 1, 655363, 65539, 1, 589828, 65539, 1, 655364, 65539, 1, 589829, 65539, 1, 655365, 65539, 1, 589830, 65539, 1, 655366, 65539, 1, 589831, 65539, 1, 655367, 65539, 1, 589846, 65539, 4, 589847, 65539, 4, 589848, 65539, 4, 589849, 65539, 4, 589850, 65539, 4, 589851, 131075, 4, 589845, 3, 4, 393219, 589824, 6, 851998, 3, 0, 851999, 65539, 0, 917534, 3, 1, 983070, 3, 1, 1048606, 3, 1, 1114142, 3, 1, 917535, 65539, 1, 983071, 65539, 1, 1048607, 65539, 1, 1114143, 65539, 1, 852000, 131075, 0, 852004, 3, 0, 852005, 65539, 0, 852006, 131075, 0, 917542, 131075, 1, 983078, 131075, 1, 1048614, 131075, 1, 1114150, 131075, 1, 917540, 3, 1, 983072, 131075, 1, 983076, 3, 1, 983077, 65539, 1, 917541, 65539, 1, 1048613, 65539, 1, 1048612, 3, 1, 1114148, 3, 1, 1048608, 131075, 1, 1114144, 131075, 1, 1114149, 65539, 1, 917536, 131075, 1, 1114145, 3, 0, 1114146, 65539, 0, 1114147, 131075, 0, 1114155, 3, 0, 1114156, 65539, 0, 1114157, 65539, 0, 1114158, 65539, 0, 1114159, 7, 0, 1114160, 65543, 0, 1114161, 131079, 0, 1114162, 65543, 0, 1114163, 131079, 0, 1114164, 65543, 0, 1114165, 196615, 0)
+layer_1/name = "three"
+layer_1/tile_data = PackedInt32Array(524296, 2, 1, 524309, 2, 0, 458754, 65538, 1, 458755, 131074, 1)
+
+[node name="FrontPalmTree3" parent="." instance=ExtResource("10_xe17i")]
+position = Vector2(112, 208)
+
+[node name="FrontPalmTree" parent="." instance=ExtResource("10_xe17i")]
+position = Vector2(687, 248)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_37wp6")
+autoplay = true
+
+[node name="Spikes" parent="." instance=ExtResource("6_a62jk")]
+position = Vector2(1074, 529)
+
+[node name="Spikes2" parent="." instance=ExtResource("6_a62jk")]
+position = Vector2(1105, 529)
+
+[node name="Spikes3" parent="." instance=ExtResource("6_a62jk")]
+position = Vector2(1136, 528)
+
+[node name="WaterReflectSmall01" type="Sprite2D" parent="."]
+position = Vector2(1569, 571)
+texture = ExtResource("14_1msbb")
+
+[node name="Ship" type="AnimatedSprite2D" parent="."]
+position = Vector2(1763, 553)
+scale = Vector2(1.01194, 1)
+sprite_frames = SubResource("SpriteFrames_5y0c6")
+frame_progress = 0.730506
+
+[node name="Flag" type="AnimatedSprite2D" parent="."]
+position = Vector2(1780, 509)
+scale = Vector2(1, 1.32)
+sprite_frames = SubResource("SpriteFrames_np8ga")
+
+[node name="Evil_pirate" parent="." instance=ExtResource("25_iqw21")]
+position = Vector2(1694, 531)
+animation = "run"
+moving_direction = "active"
+
+[node name="Cannon" parent="." instance=ExtResource("26_r5k0m")]
+position = Vector2(1149, 166)

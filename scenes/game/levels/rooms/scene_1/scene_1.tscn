@@ -113,6 +113,8 @@ position = Vector2(515, -109)
 [node name="FrontPalmTree7" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
 position = Vector2(739, -205)
+frame = 3
+frame_progress = 0.914459
 
 [node name="FrontPalmTree2" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
@@ -207,7 +209,7 @@ position = Vector2(132, 435)
 animation = "green_diamond"
 
 [node name="Crabby" parent="." instance=ExtResource("18_dyrn2")]
-position = Vector2(284, 500)
+position = Vector2(297, 497)
 animation = "run"
 moving_direction = "right"
 
@@ -215,7 +217,7 @@ moving_direction = "right"
 position = Vector2(797, 340)
 
 [node name="BombShop" parent="." instance=ExtResource("21_sh538")]
-position = Vector2(1149, 460)
+position = Vector2(1181, 454)
 
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
 position = Vector2(120, 521)
